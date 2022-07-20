@@ -1,0 +1,19 @@
+.btn {
+    height: 85px;
+    width: 269px;
+    background: var(--mc);
+    border: 1px solid var(--mc);
+    font-size: 22px;
+    line-height: 1.6;
+    text-align: center;
+    letter-spacing: 0.4px;
+    cursor: pointer;
+    color: #1F2732;
+    // text-decoration: none;
+    &__promo {
+        margin-top: 28px;
+    }
+    &__consultation {
+        margin-top: 40px;
+    }
+}

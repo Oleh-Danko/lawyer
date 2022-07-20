@@ -1,0 +1,59 @@
+.consultation {
+    padding: 140px 0;
+    &__wrapper {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 100px;
+    }
+    &__black {
+        &-descr {
+            margin-top: 40px;
+        }
+    }
+    &__frame {
+        margin-top: 15px;
+    }
+    &__white {
+        background: #fff;
+        padding: 40px;
+        &-wrapper {
+            padding: 55px;
+            width: 100%;
+            height: 100%;
+            border: 15px solid #D7D7D7;
+        }
+        h3 {
+            font-size: 34px;
+            line-height: 1.309;
+            letter-spacing: 0.4px;
+            color: #1F2732;
+        }
+        &-descr {
+            margin-top: 15px;
+            color: #909090;
+        }
+    }
+    &__phone {
+        margin-top: 37px;
+        display: flex;
+        &-img {
+            margin-right: 15px;
+            width: 70px;
+            height: 70px;
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+        &-data {
+            font-size: 18px;
+            letter-spacing: 0.4px;
+            color: #1F2732;
+            a {
+                color: #1F2732;
+                font-size: 30px;
+                text-decoration: none;
+            }
+        }
+    }
+}

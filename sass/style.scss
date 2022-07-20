@@ -1,0 +1,61 @@
+// @import 'libs/bootstrap-reboot.min';
+// @import url(https://fonts.googleapis.com/css?family=Roboto:300,regular,400,700,900,&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Outfit:regular,700);
+@import url(https://fonts.googleapis.com/css?family=Cormorant+Garamond:regular);
+
+*,*::before,*::after {
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    min-width: 320px;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Outfit' sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.6;
+    color: #D7D7D7;
+    background: #161D27;
+    position: relative;
+}
+
+.container {
+    max-width: 1355px;
+    margin: 0 auto;
+    padding: 0 15px;
+    position: relative;
+}
+
+.title {
+
+}
+
+
+@import 'base/variables';
+@import 'base/overlay';
+
+@import 'blocks/header';
+@import 'blocks/promo';
+@import 'blocks/btns';
+@import 'blocks/about';
+@import 'blocks/title';
+@import 'blocks/type';
+@import 'blocks/reviews';
+@import 'blocks/consultation';
+@import 'blocks/form';
+@import 'blocks/recent';
+@import 'blocks/background';
+@import 'blocks/footer';
+@import 'blocks/modal';
+@import 'blocks/scroll-up';
+
+@import 'blocks/media';
+
+

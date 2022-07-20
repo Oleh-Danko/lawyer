@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="subheader" id="subheader">
+                <div class="subheader__feedback">
+                    <div class="subheader__logo"><img src="icons/logo.png" alt="logo"></div>
+                    <div class="subheader__btn btn-open-modal"><a href="#">Замовити консультацію</a></div>
+                </div>
+            </div>
+            <nav>
+                <div class="links">
+                    <ul class="links__items">
+                        <li class="links__item"><a href="#subheader">Головна</a></li>
+                        <li class="links__item"><a href="#about">Про нас</a></li>
+                        <li class="links__item links__item-pop-up">
+                            <a href="#">Сторінки</a>
+                            <ul class="links__sub-items">
+                                <li class="links__sub-item">
+                                    <a href="#type">Сфери діяльності</a>
+                                </li>
+                                <li class="links__sub-item">
+                                    <a href="#consultation">Консультація</a>
+                                </li>
+                                <li class="links__sub-item">
+                                    <a href="#form">Записатися на прийом</a>
+                                </li>
+                                <li class="links__sub-item">
+                                    <a href="#recent">Блоги</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="links__item"><a href="#footer">Контакти</a></li>
+                    </ul>
+                </div>
+                <div class="contacts">
+                    <div class="contacts__item">
+                        <div class="contacts__img">
+                            <img src="icons/nav/call.png" alt="phone">
+                        </div>
+                        <div class="contacts__data">
+                            Телефон:  <a href="tel:911987654321">+380 66 888 16 51</a>
+                        </div>
+                    </div>
+                    <div class="contacts__item">
+                        <div class="contacts__img"><img src="icons/nav/mail.png" alt="mail"></div>
+                        <div class="contacts__data">Пошта:
+                            <a href="mailto:yourmail@mail.com">yourmail@mail.com</a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <div class="overlay__pop-up"></div>
+            <!-- <div class="pop-up">
+                <ul>
+                    <li>
+                        <a href="#">Сфери діяльності</a>
+                    </li>
+                    <li>
+                        <a href="#">Консультація</a>
+                    </li>
+                    <li>
+                        <a href="#">Записатися на прийом</a>
+                    </li>
+                    <li>
+                        <a href="#">Блоги</a>
+                    </li>
+                </ul>
+            </div> -->
+        </div>
+    </header>
+
+    <section class="promo">
+        <div class="container">
+            <div class="promo__wrapper">
+                <div class="frame promo__frame">
+                    <img src="icons/frame.png" alt="frame">
+                </div>
+                <h1 class="promo__title">Сертифікований професіонал права</h1>
+                <div class="promo__descr">Я допомогла незліченній кількості морських працівників та їхніх сімей
+                    виступити проти найбільшого офшору компаній і виграти.
+                </div>
+                <button class="btn btn__promo btn-open-modal">
+                    Зв'язатись
+                </button>
+            </div>
+        </div>
+        <div class="promo__img">
+            <img src="img/promo/man.png" alt="img">
+        </div>
+        <div class="overlay overlay__promo"></div>
+
+
+    </section>
+
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about__wrapper">
+                <div class="about__img">
+                    <div>
+                        <img src="img/about/01.png" alt="about_img">
+                    </div>
+                    <div>
+                        <img src="img/about/02.png" alt="about_img">
+                        
+                    </div>
+
+                </div>
+                <div class="about__descr">
+                    <h2 class="title title__about">Ласкаво просимо до Наталка Company</h2>
+                    <div class="frame">
+                        <img src="icons/frame.png" alt="frame">
+                    </div>
+                    <div class="about__text">
+                        Незважаючи на те, що я знаходжусь на Полтавщині, пишаюсь тим, що допомагаю
+                        постраждалим по всій країні, включаючи працівників, які працювали в іноземних водах під час
+                        інциденту, виступають проти найбільших офшорних компаній і виграють.
+                    </div>
+                    <div class="about__avatar">
+                        <img class="about__avatar-img" src="img/about/avatar.png" alt="avatar">
+                        <h3>Наталія Сук</h3>
+                    </div>
+                    <div class="about__skills">
+                        <div class="about__skills-case">
+                            <img src="img/about/case.png" alt="case">
+                            95%<br>
+                            Успіх справи
+                        </div>
+                        <div class="about__skills-experience">
+                            <img src="img/about/experience.png" alt="Years">
+                            Років<br>
+                            Стажу
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+
+    <section class="type" id="type">
+        <div class="container">
+            <div class="type__wrapper">
+                <h2 class="title title__type">Досліджуйте The perfect<br>Наші сфери діяльності</h2>
+                <div class="frame type__frame-media">
+                    <img src="icons/frame.png" alt="frame">
+                </div>
+                <div class="type__descr">
+                    Ми є групою адвокатів у цивільних справах/судових справах, які зосереджені на
+                    забезпеченні правосуддя на основі питань, пов’язаних зі страховим захистом, страховим покриттям,
+                    недобросовісністю, страховим шахрайством і кримінальним судочинством.
+                </div>
+            </div>
+            <div class="frame type__frame">
+                <img src="icons/frame.png" alt="frame">
+            </div>
+            <div class="type__items">
+                <div class="type__item">
+                    <div class="type__item-descr">
+                        <span>Господарське право</span><br>
+                        Будьте в курсі нових подій,
+                        оскільки закони та правила часто змінюються залежно від ситуації.
+                    </div>
+                    <div class="type__item-divider"></div>
+                    <div class="type__item-link">
+                        <img src="icons/type/Business-Law.png" alt="Business-Law">
+                        <div class="type__item-btn">
+                            <a href="#">Дивитись більше</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="type__item">
+                    <div class="type__item-descr">
+                        <span>Підприємницьке право</span><br>
+                        Ніколи не судіть, просто
+                        вислухайте і порадьте. Навіть якщо ваш клієнт прийняв неправильне рішення у справі.
+                    </div>
+                    <div class="type__item-divider"></div>
+                    <div class="type__item-link">
+                        <img src="icons/type/Business-Law-Law.png" alt="Business-Law-Law">
+                        <div class="type__item-btn">
+                            <a href="#">Дивитись більше</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="type__item">
+                    <div class="type__item-descr">
+                        <span>Дорожня аварія</span><br>
+                        Якщо говорити неправду, ви ні до чого
+                        не приведете, і ви отримаєте репутацію нечесного в законі.
+                    </div>
+                    <div class="type__item-divider"></div>
+                    <div class="type__item-link">
+                        <img src="icons/type/Car-Accident.png" alt="Car-Accident">
+                        <div class="type__item-btn">
+                            <a href="#">Дивитись більше</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="type__item">
+                    <div class="type__item-descr">
+                        <span>Неправомірна смерть</span><br>
+                        Слідкуйте за новинами у своїй
+                        галузі права. Пізнай нову справедливість, як закони і правила.
+                    </div>
+                    <div class="type__item-divider"></div>
+                    <div class="type__item-link">
+                        <img src="icons/type/Wrongful-Death.png" alt="Wrongful-Death">
+                        <div class="type__item-btn">
+                            <a href="#">Дивитись більше</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="type__item">
+                    <div class="type__item-descr">
+                        <span>Кримінальне право</span><br>
+                        Наші юристи повністю віддані тому,
+                        щоб надати вам підтримку та увагу, яких ви заслуговуєте.
+                    </div>
+                    <div class="type__item-divider"></div>
+                    <div class="type__item-link">
+                        <img src="icons/type/Criminal-Law.png" alt="Criminal-Law">
+                        <div class="type__item-btn">
+                            <a href="#">Дивитись більше</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="type__item">
+                    <div class="type__item-descr">
+                        <span>Сімейне право</span><br>
+                        Ви можете виявитися нездатним працювати
+                        або безпечно виконувати пов’язані з роботою обов’язки.
+                    </div>
+                    <div class="type__item-divider"></div>
+                    <div class="type__item-link">
+                        <img src="icons/type/Family-Law.png" alt="Family-Law">
+                        <div class="type__item-btn">
+                            <a href="#">Дивитись більше</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- <section class="reviews">
+        <div class="container">
+            <h2 class="title title__reviews">Думки та відгуки клієнтів</h2>
+            <div class="frame reviews__frame">
+                <img src="icons/frame2.png" alt="frame">
+            </div>
+            <div class="reviews__wrapper">
+                <div class="reviews__item">
+                    <div class="reviews__descr">
+                        <div class="reviews__descr-img">
+                            <img src="icons/reviews/apostrophe.png" alt="apostrophe">
+                        </div>
+                        Не могли б ви подякувати Павлу особисто за мене, зірки йому на чолі. Ідеальний спосіб вирішення
+                        справи на основі ситуації.
+                    </div>
+                    <div class="reviews__avatar">
+                        <div class="reviews__avatar-img">
+                            <img src="icons/reviews/01.png" alt="avatar">
+                        </div>
+                        <div class="reviews__avatar-text">
+                            Наташа<br>
+                            Приватні працівники</div>
+                    </div>
+                </div>
+                <div class="reviews__item reviews__item-upside">
+                    <div class="reviews__avatar">
+                        <div class="reviews__avatar-img">
+                            <img src="icons/reviews/02.png" alt="avatar">
+                        </div>
+                        <div class="reviews__avatar-text">
+                            Ханна Батлер<br>
+                            Бізнес сектор
+                        </div>
+                    </div>
+                    <div class="reviews__descr">
+                        <div class="reviews__descr-img">
+                            <img src="icons/reviews/apostrophe.png" alt="apostrophe">
+                        </div>
+                        Юридична фірма Attorney справді допомогла мені вчасно вирішити всі питання сімейного права та
+                        опіки. Не вистачає слів, щоб подякувати фірмі.
+                    </div>
+                </div>
+                <div class="reviews__item">
+                    <div class="reviews__descr">
+                        <div class="reviews__descr-img">
+                            <img src="icons/reviews/apostrophe.png" alt="apostrophe">
+                        </div>
+                        Дякую за те, як ваша команда ідеально впоралася з цим питанням. Вони дають мені велике
+                        полегшення в цьому випадку з більшою впевненістю.
+                    </div>
+                    <div class="reviews__avatar">
+                        <div class="reviews__avatar-img">
+                            <img src="icons/reviews/03.png" alt="avatar">
+                        </div>
+                        <div class="reviews__avatar-text">
+                            Філіп Арнольд<br>
+                            Водій автобуса
+                        </div>
+                    </div>
+                </div>
+                <div class="reviews__item reviews__item-upside">
+                    <div class="reviews__avatar">
+                        <div class="reviews__avatar-img">
+                            <img src="icons/reviews/04.png" alt="avatar">
+                        </div>
+                        <div class="reviews__avatar-text">
+                            Джошуа Воррен<br>
+                            Приватний інженер
+                        </div>
+                    </div>
+                    <div class="reviews__descr">
+                        <div class="reviews__descr-img">
+                            <img src="icons/reviews/apostrophe.png" alt="apostrophe">
+                        </div>
+                        Я часто переглядаю список найкращих юристів, щоб вибрати адвоката в сферах, з якими вони занадто
+                        знайомі, і врешті-решт вони прийшли, щоб досягти справедливості.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <section class="consultation" id="consultation">
+        <div class="container">
+            <div class="consultation__wrapper">
+                <div class="consultation__black">
+                    <h2 class="title consultation__title">
+                        Наша професійна юридична команда експертів завжди готова допомогти вам
+                    </h2>
+                    <div class="consultation__frame frame">
+                        <img src="icons/frame.png" alt="frame">
+                    </div>
+                    <div class="consultation__black-descr">
+                        Ми завжди доступні для нових великих чи малих справ.
+                        Надішліть нам електронний лист, і ми незабаром зв’яжемося, або зателефонуйте з 8:00 до 19:00 з
+                        понеділка по суботу.
+                    </div>
+                    <button class="btn btn__consultation btn-open-modal">
+                        Зв'язатись
+                    </button>
+                </div>
+                <div class="consultation__white">
+                    <div class="consultation__white-wrapper">
+                        <h3>Отримайте безкоштовну консультацію</h3>
+                        <div class="consultation__white-descr">
+                            Ви можете отримати у нас безкоштовну консультацію та
+                            оцінку випадку за вказаним нижче контактним номером
+                        </div>
+                        <div class="consultation__phone">
+                            <div class="consultation__phone-img">
+                                <a href="#">
+                                    <img src="icons/consultation-phone.png" alt="consultation-phone">
+                                </a>
+                            </div>
+                            <div class="consultation__phone-data">
+                                Телефон:<br>
+                                <a href="tel:911987654321">+380 66 888 16 51</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="form" id="form">
+        <div class="container">
+            <form  action="mailer/smart.php" method="POST" enctype="multipart/form-data">
+                    <input class="form-message" placeholder="Ім'я*" name="name" type="text" required>
+                    <input class="form-message" placeholder="Телефон" name="phone" type="number" required>
+                    <textarea class="form-message" style="resize: none;" placeholder="Ваше повідомлення" name="text"></textarea>
+                <button type="submit">Запишіться на прийом</button>
+            </form>
+        </div>
+        <div class="overlay"></div>
+    </div>
+
+    <section class="recent" id="recent">
+        <div class="container">
+            <h2 class="title title__recent">
+                Останні блоги
+            </h2>
+            <div class="frame recent__frame">
+                <img src="icons/frame2.png" alt="frame">
+            </div>
+            <div class="recent__wrapper">
+                <div class="recent__img">
+                    <img src="img/recent/IMAGE.png" alt="recent">
+                </div>
+                <div class="recent__descr">
+                    <div class="recent__descr-data">Корпоративне право  &nbsp;  | &nbsp; П'ятниця, 4 лютого 2022</div>
+                    <div class="recent__descr-title">
+                        Різниця між інформацією та юридичною порадою
+                    </div>
+                    <div class="recent__descr-text">
+                        Спільна робота над невибагливими плодами, щоб визначити ефективну додаткову діяльність для економічного тестування бета-матриці, замінити цифровий.
+                    </div>
+                    <div class="recent__descr-link">
+                        <a href="#">Дивитись більше</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="overlay"></div>
+    </section>
+
+    <div class="background">
+        <div class="overlay"></div>
+    </div>
+
+    <footer class="footer" id="footer">
+        <div class="container">
+            <div class="footer__frame">
+                    <div class="footer__frame-left">
+                        <img src="icons/frame3.png" alt="frame">
+                    </div>
+                    <div class="footer__logo">
+                        <img src="icons/logo.png" alt="logo">
+                    </div>
+                    <div class="footer__frame-right">
+                        <img src="icons/frame4.png" alt="frame">
+                    </div>
+            </div>
+
+            <div class="footer__wrapper">
+                <ul class="footer__links">
+                    <li class="footer__link-title">Швидке посилання</li>
+                    <li class="footer__link">
+                        <a href="#subheader">Головна</a>
+                    </li>
+                    <li class="footer__link">
+                        <a href="#about">Про нас</a>
+                    </li>
+                    <li class="footer__link">
+                        <a href="#type">Сфери практики</a>
+                    </li>
+                    <li class="footer__link">
+                        <a href="#recent">Блоги</a>
+                    </li>
+                    <li class="footer__link">
+                        <a href="#consultation">Консультація</a>
+                    </li>
+                    <li class="footer__link">
+                        <a href="#form">Зворотній зв'язок</a>
+                    </li>
+                </ul>
+                <ul class="footer__links">
+                    <li class="footer__link-title">Область практики</li>
+                    <li class="footer__link">
+                        <a href="#">Господарське право</a>
+                    </li>
+                    <li class="footer__link">
+                        <a href="#">Підприємницьке право</a>
+                    </li>
+                    <li class="footer__link">
+                        <a href="#">Дорожня аварія</a>
+                    </li>
+                    <li class="footer__link">
+                        <a href="#">Неправомірна смерть</a>
+                    </li>
+                    <li class="footer__link">
+                        <a href="#">Кримінальне право</a>
+                    </li>
+                    <li class="footer__link">
+                        <a href="#">Сімейне право</a>
+                    </li>
+                </ul>
+
+                <div class="footer__links footer__links-contacts">
+                    <div class="footer__link-title">Контакти</div>
+                    <div class="footer__link">
+                        Полтавська обл. <br> Миргородський р-н. <br> м.Гадяч
+                    </div>
+                    <div>
+                        <div class="footer__link footer__link-phone">
+                            Телефон: <a href="tel:911987654321">+380 66 888 16 51</a>
+                        </div>
+                        <div class="footer__link footer__link-mail">
+                            Пошта: <a href="mailto:yourmail@mail.com">yourmail@mail.com</a>
+                        </div>
+                    </div>
+                  
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="overlay__modal">
+        <div class="modal" id="form-modal">
+            <div class="modal__close">&times;</div>
+            <div class="modal__subtitle"> Заповніть форму</div>
+            <div class="modal__descr">і я зателефоную найближчим часом</div>
+            <form  action="mailer/smart.php" method="POST" enctype="multipart/form-data">
+                <input class="form-message" placeholder="Ім'я*" name="name" type="text" required>
+                <input class="form-message" placeholder="Телефон" name="phone" type="number" required>
+                <textarea class="form-message" style="resize: none;" placeholder="Ваше повідомлення" name="text"></textarea>
+            <button type="submit">Запишіться на прийом</button>
+        </form>
+        </div>
+
+        <div class="modal modal_mini" id="thanks">
+            <div class="modal__close">&times;</div>
+            <div class="modal__subtitle">Дякую за вашу заявку!</div>
+            <div class="modal__descr">
+                Я зв'яжусь з вами найближчим часом!
+            </div>
+        </div>
+    </div>
+
+
+    <div class="scroll-up">
+        <svg class="scroll-up__svg" viewBox="-2 -2 52 52">
+            <path class="scroll-up__svg-path"
+                d="
+                    M24,0
+                    a24,24 0 0,1 0,48
+                    a24,24 0 0,1 0,-48
+                "
+            />
+        </svg>        
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>

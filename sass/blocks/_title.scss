@@ -1,0 +1,18 @@
+.title {
+    position: relative;
+    z-index: 1;
+    font-size: 45px;
+    line-height: 1.28;
+    letter-spacing: 0.4px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    &__about {
+        margin-bottom: 11px;
+    }
+    &__reviews {
+        text-align: center;
+    }
+    &__recent {
+        text-align: center;
+    }
+}
